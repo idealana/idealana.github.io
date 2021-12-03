@@ -1,0 +1,40 @@
+@media only screen and (max-width: 576px) {
+	section {
+		padding: 20px;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	header {
+		padding: 15px 10px 15px 35px;
+	}
+
+	header .logo {
+		font-size: 1em;
+	}
+
+	header ul li a {
+		padding: 5px 12px;
+	}
+
+	main .app {
+		flex-direction: column;
+    	flex-wrap: nowrap;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	section {
+		padding: 20px;
+	}
+
+	.container {
+		width: 90%;
+	}
+}

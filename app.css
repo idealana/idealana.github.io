@@ -78,21 +78,21 @@ main {
     margin: 0 auto;
 }
 
-main .game {
+main .app {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-}
-
-main .game .items {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-main .game .items a {
+main .app .items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .app .items a {
 	padding: 12px;
     text-decoration: none;
     background: rgba(255, 255, 255, .05);
@@ -103,7 +103,7 @@ main .game .items a {
     font-size: .8em;
 }
 
-main .game .items a:hover {
+main .app .items a:hover {
 	box-shadow: 0 3px 35px rgba(255, 255, 255);
 }
 
