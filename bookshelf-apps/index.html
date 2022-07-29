@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./app.css">
+
+    <title>Bookshelf Apps</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header contents-center">
+            <p>Bookshelf Apps</p>
+        </div>
+        <div class="content-box contents-center">
+            <div class="contents">
+                <div class="box">
+                    <p class="title">Masukan Buku Baru</p>
+                    <form id="formBook">
+                        <div class="form-group">
+                            <label>Judul</label>
+                            <input type="text" class="form-control" id="title" placeholder="Masukan Judul Buku">
+                            <span class="form-text">Contoh: Harry Potter</span>
+                        </div>
+                        <div class="form-group">
+                            <label>Penulis</label>
+                            <input type="text" class="form-control" id="author" placeholder="Masukan Penulis Buku">
+                            <span class="form-text">Contoh: J.K. Rowling</span>
+                        </div>
+                        <div class="form-group">
+                            <label>Tahun</label>
+                            <input type="text" class="form-control" id="year" placeholder="Masukan Tahun Buku">
+                            <span class="form-text">Contoh: 1997</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="isComplete">
+                            <label for="isComplete">Sudah dibaca</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-simpan">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="box">
+                    <p class="title">Pencarian</p>
+                    <input type="text" class="form-control" id="search-input" placeholder="Cari berdasarkan judul">
+                </div>
+                <div class="box">
+                    <p class="title">Belum Selesai Dibaca</p>
+                    <div id="unread-books"></div>
+                </div>
+                <div class="box">
+                    <p class="title">Sudah Dibaca</p>
+                    <div id="readed-books"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
